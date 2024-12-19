@@ -1,0 +1,15 @@
+﻿<Window x:Class="Project1.ImageWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project1"
+        mc:Ignorable="d"
+        Title="ImageWin" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Image Source="D:\работы VS\Безумный Лари\varp.jpg" Width="539" Height="361" Canvas.Left="131" Canvas.Top="37"/>
+            <Button Content="Вернуться" Height="47" Canvas.Left="19" Canvas.Top="47" Width="71" Click="Button_Click" Background="blue"/>
+        </Canvas>
+    </Grid>
+</Window>

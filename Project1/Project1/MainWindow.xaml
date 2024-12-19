@@ -1,0 +1,32 @@
+﻿<Window x:Class="Project1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Opacity="0.75">
+        <Button x:Name="ImageButt" Content="Кнопочка" Background="Red" HorizontalAlignment="Left" Height="38" Margin="42,47,0,0" VerticalAlignment="Top" Width="67" RenderTransformOrigin="0.5,0.5" Click="ImageButt_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-25.696"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ImageButt_Копировать" Content="Ещё одна кнопочка" Background="Red" HorizontalAlignment="Left" Height="38" Margin="649,58,0,0" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="27.193"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
